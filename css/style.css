@@ -1,0 +1,95 @@
+/*
+==========================
+         body css
+==========================
+*/
+
+body{
+
+	font-family: 'Kalpurush','Arial';
+}
+
+/*
+===========================
+      body end
+===========================
+*/
+
+/*
+===========================
+top header start
+===========================
+*/
+
+/*main-header bg*/
+.head_bg{
+	background: #0a5a9b;
+	height: 40px;
+}/*main-header end*/
+
+/*slogan start*/
+.slogan h4{
+	font-size: 16px!important;
+    line-height: 40px;
+    color:#fff;
+    margin-bottom: 0px!important;
+}/*slogan end*/
+
+/*btn start*/
+.cus_btn{
+  width:150px;
+  background: #f0f0f0;
+  border:none;
+  padding:2px 5px!important;
+  margin-top: 5px;
+
+}
+.cus_btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(183 184 185 / 25%);
+    border:none;
+}
+.dropdown-menu {
+    min-width: 150px;
+}/*btn end*/
+
+/*icon start*/
+.icon_wrap ul{
+	float:right;
+}
+.icon_wrap ul li a{
+	font-size:18px;
+	width:27px;
+	height: 27px;
+	background: #f0f0f0;
+	display: inline-block;
+	text-align: center;
+	margin-top:5px;
+	border-radius:5px;
+	transition: .5s ease;
+}
+.icon_wrap ul li a:hover {
+ transform: translateY(-2px);
+font-size:19px;
+}
+.icon_wrap ul li a .fa{
+	line-height: 30px;
+}
+.icon_wrap ul li a .fa-facebook{
+	color:#3b5999;
+}
+.icon_wrap ul li a .fa-twitter{
+	color:#55acee;
+}
+.icon_wrap ul li a .fa-youtube{
+	color:#cd201f;
+}
+.icon_wrap ul li a .fa-facebook{
+	color:#34465d;
+}/*icon end*/
+
+/*
+===========================
+top header start
+===========================
+*/
